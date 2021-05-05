@@ -1,0 +1,21 @@
+
+
+<br />
+
+First Name : {{ firstName }}
+age : {{ age }}
+Eligible : {{ isEligible }}
+
+<img [src]="imageURL">
+
+<label>{{  2 + 2 }}</label>
+
+<br />
+
+You clicked Hi button {{ noOfTimes }} times
+<button (click)="updateCounter()">Hi</button>
+
+<br />
+<label>Full Name : </label>
+<input type="text" [(ngModel)]="fullName" />
+{{ fullName }}
